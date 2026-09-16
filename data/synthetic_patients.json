@@ -1,0 +1,3267 @@
+{
+  "dataset_metadata": {
+    "title": "Comprehensive Synthetic Clinical EHR Benchmark Dataset",
+    "version": "2.0",
+    "generated_at": "2026-09-15T12:08:45.405426",
+    "compliance": "HIPAA Safe Harbor De-identified Synthetic Data",
+    "total_patients": 15
+  },
+  "patients": [
+    {
+      "patient_id": "P101",
+      "demographics": {
+        "full_name": "Olivia Thorne",
+        "gender": "Female",
+        "date_of_birth": "1956-10-03",
+        "age": 68,
+        "blood_type": "B+",
+        "primary_care_physician": "Dr. David Sterling, MD (Primary Care)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "I25.10",
+          "description": "Atherosclerotic heart disease of native coronary artery",
+          "onset_date": "2020-11-12"
+        },
+        {
+          "code": "I50.32",
+          "description": "Chronic diastolic (congestive) heart failure",
+          "onset_date": "2020-03-07"
+        },
+        {
+          "code": "I48.91",
+          "description": "Unspecified atrial fibrillation",
+          "onset_date": "2019-05-21"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Aspirin",
+          "reaction": "Severe bronchospasm and urticaria",
+          "severity": "Severe",
+          "recorded_date": "2016-03-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Clopidogrel (Plavix)",
+          "dosage": "75mg daily",
+          "route": "Oral",
+          "indication": "Antiplatelet post-PCI",
+          "prescribed_date": "2023-02-08"
+        },
+        {
+          "name": "Apixaban (Eliquis)",
+          "dosage": "5mg twice daily",
+          "route": "Oral",
+          "indication": "Stroke prevention in AFib",
+          "prescribed_date": "2023-01-20"
+        },
+        {
+          "name": "Carvedilol",
+          "dosage": "12.5mg twice daily",
+          "route": "Oral",
+          "indication": "Rate control & cardioprotection",
+          "prescribed_date": "2022-09-23"
+        },
+        {
+          "name": "Sacubitril/Valsartan (Entresto)",
+          "dosage": "24/26mg twice daily",
+          "route": "Oral",
+          "indication": "Heart failure guideline therapy",
+          "prescribed_date": "2023-09-15"
+        },
+        {
+          "name": "Furosemide (Lasix)",
+          "dosage": "20mg daily as needed",
+          "route": "Oral",
+          "indication": "Volume overload management",
+          "prescribed_date": "2021-12-01"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P101-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Exertional dyspnea when climbing stairs and mild bilateral ankle swelling.",
+          "clinical_note": "Patient Olivia Thorne (68yo Female) presented for outpatient specialist consultation. Chief concern: Exertional dyspnea when climbing stairs and mild bilateral ankle swelling. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "148/92",
+            "heart_rate": 75,
+            "bmi": 26.0,
+            "weight_kg": 81.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P101-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Routine cardiology post-stent surveillance and ECG rhythm check.",
+          "clinical_note": "Patient Olivia Thorne (68yo Female) presented for routine chronic disease follow-up. Chief concern: Routine cardiology post-stent surveillance and ECG rhythm check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "124/76",
+            "heart_rate": 75,
+            "bmi": 31.0,
+            "weight_kg": 73.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P101-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Palpitations and lightheadedness lasting 10 minutes.",
+          "clinical_note": "Patient Olivia Thorne (68yo Female) presented for outpatient specialist consultation. Chief concern: Palpitations and lightheadedness lasting 10 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "139/78",
+            "heart_rate": 82,
+            "bmi": 26.4,
+            "weight_kg": 67.2
+          }
+        },
+        {
+          "encounter_id": "ENC-P101-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Exertional dyspnea when climbing stairs and mild bilateral ankle swelling.",
+          "clinical_note": "Patient Olivia Thorne (68yo Female) presented for routine chronic disease follow-up. Chief concern: Exertional dyspnea when climbing stairs and mild bilateral ankle swelling. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "139/72",
+            "heart_rate": 66,
+            "bmi": 27.2,
+            "weight_kg": 67.9
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "NT-proBNP",
+          "date": "2021-03-12",
+          "value": 33.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "NT-proBNP",
+          "date": "2022-08-20",
+          "value": 65.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "NT-proBNP",
+          "date": "2023-11-05",
+          "value": 64.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Troponin I",
+          "date": "2021-03-12",
+          "value": 1.09,
+          "unit": "ng/mL",
+          "reference_range": "< 0.04",
+          "interpretation": "Critical Elevation"
+        },
+        {
+          "test_name": "Troponin I",
+          "date": "2022-08-20",
+          "value": 1.67,
+          "unit": "ng/mL",
+          "reference_range": "< 0.04",
+          "interpretation": "Critical Elevation"
+        },
+        {
+          "test_name": "Troponin I",
+          "date": "2023-11-05",
+          "value": 11.34,
+          "unit": "ng/mL",
+          "reference_range": "< 0.04",
+          "interpretation": "Critical Elevation"
+        },
+        {
+          "test_name": "Total Cholesterol",
+          "date": "2021-03-12",
+          "value": 53.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Cholesterol",
+          "date": "2022-08-20",
+          "value": 72.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Cholesterol",
+          "date": "2023-11-05",
+          "value": 34.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "LDL Cholesterol",
+          "date": "2021-03-12",
+          "value": 148,
+          "unit": "mg/dL",
+          "reference_range": "< 100",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "LDL Cholesterol",
+          "date": "2022-08-20",
+          "value": 135,
+          "unit": "mg/dL",
+          "reference_range": "< 100",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "LDL Cholesterol",
+          "date": "2023-11-05",
+          "value": 93,
+          "unit": "mg/dL",
+          "reference_range": "< 100",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "Serum Potassium",
+          "date": "2021-03-12",
+          "value": 20.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Potassium",
+          "date": "2022-08-20",
+          "value": 81.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Potassium",
+          "date": "2023-11-05",
+          "value": 30.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P102",
+      "demographics": {
+        "full_name": "Raymond Mercer",
+        "gender": "Male",
+        "date_of_birth": "1961-08-16",
+        "age": 63,
+        "blood_type": "O+",
+        "primary_care_physician": "Dr. Alistair Mercer, MD (Neurology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "G35",
+          "description": "Multiple sclerosis",
+          "onset_date": "2018-08-12"
+        },
+        {
+          "code": "G62.9",
+          "description": "Polyneuropathy, unspecified",
+          "onset_date": "2021-09-24"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Ocrelizumab (Ocrevus)",
+          "dosage": "600mg IV infusion every 6 months",
+          "route": "Intravenous",
+          "indication": "Disease-modifying therapy for RRMS",
+          "prescribed_date": "2021-03-25"
+        },
+        {
+          "name": "Gabapentin",
+          "dosage": "300mg three times daily",
+          "route": "Oral",
+          "indication": "Neuropathic pain & paresthesias",
+          "prescribed_date": "2023-02-03"
+        },
+        {
+          "name": "Baclofen",
+          "dosage": "10mg twice daily as needed",
+          "route": "Oral",
+          "indication": "Lower extremity spasticity",
+          "prescribed_date": "2021-09-18"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P102-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness.",
+          "clinical_note": "Patient Raymond Mercer (63yo Male) presented for outpatient specialist consultation. Chief concern: Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "140/76",
+            "heart_rate": 75,
+            "bmi": 31.0,
+            "weight_kg": 55.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P102-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Routine 6-month pre-infusion laboratory and neurological disability (EDSS) check.",
+          "clinical_note": "Patient Raymond Mercer (63yo Male) presented for routine chronic disease follow-up. Chief concern: Routine 6-month pre-infusion laboratory and neurological disability (EDSS) check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "131/92",
+            "heart_rate": 73,
+            "bmi": 22.9,
+            "weight_kg": 73.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P102-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Mild heat intolerance (Uhthoff's phenomenon) during summer weather.",
+          "clinical_note": "Patient Raymond Mercer (63yo Male) presented for outpatient specialist consultation. Chief concern: Mild heat intolerance (Uhthoff's phenomenon) during summer weather. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "132/83",
+            "heart_rate": 82,
+            "bmi": 28.8,
+            "weight_kg": 62.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P102-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness.",
+          "clinical_note": "Patient Raymond Mercer (63yo Male) presented for routine chronic disease follow-up. Chief concern: Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "143/71",
+            "heart_rate": 69,
+            "bmi": 27.9,
+            "weight_kg": 93.5
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2021-03-12",
+          "value": 56.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2022-08-20",
+          "value": 89.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2023-11-05",
+          "value": 19.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2021-03-12",
+          "value": 73.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2022-08-20",
+          "value": 59.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2023-11-05",
+          "value": 73.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2021-03-12",
+          "value": 15.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2022-08-20",
+          "value": 24.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2023-11-05",
+          "value": 47.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P103",
+      "demographics": {
+        "full_name": "Olivia Sterling",
+        "gender": "Female",
+        "date_of_birth": "1982-03-06",
+        "age": 42,
+        "blood_type": "B-",
+        "primary_care_physician": "Dr. Anthony Rossi, MD (Interventional Cardiology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "G35",
+          "description": "Multiple sclerosis",
+          "onset_date": "2019-09-12"
+        },
+        {
+          "code": "G62.9",
+          "description": "Polyneuropathy, unspecified",
+          "onset_date": "2018-02-14"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Ocrelizumab (Ocrevus)",
+          "dosage": "600mg IV infusion every 6 months",
+          "route": "Intravenous",
+          "indication": "Disease-modifying therapy for RRMS",
+          "prescribed_date": "2021-09-22"
+        },
+        {
+          "name": "Gabapentin",
+          "dosage": "300mg three times daily",
+          "route": "Oral",
+          "indication": "Neuropathic pain & paresthesias",
+          "prescribed_date": "2023-02-25"
+        },
+        {
+          "name": "Baclofen",
+          "dosage": "10mg twice daily as needed",
+          "route": "Oral",
+          "indication": "Lower extremity spasticity",
+          "prescribed_date": "2023-05-10"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P103-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness.",
+          "clinical_note": "Patient Olivia Sterling (42yo Female) presented for outpatient specialist consultation. Chief concern: Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "144/80",
+            "heart_rate": 74,
+            "bmi": 30.3,
+            "weight_kg": 92.8
+          }
+        },
+        {
+          "encounter_id": "ENC-P103-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Routine 6-month pre-infusion laboratory and neurological disability (EDSS) check.",
+          "clinical_note": "Patient Olivia Sterling (42yo Female) presented for routine chronic disease follow-up. Chief concern: Routine 6-month pre-infusion laboratory and neurological disability (EDSS) check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "133/78",
+            "heart_rate": 80,
+            "bmi": 23.8,
+            "weight_kg": 77.9
+          }
+        },
+        {
+          "encounter_id": "ENC-P103-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Mild heat intolerance (Uhthoff's phenomenon) during summer weather.",
+          "clinical_note": "Patient Olivia Sterling (42yo Female) presented for outpatient specialist consultation. Chief concern: Mild heat intolerance (Uhthoff's phenomenon) during summer weather. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "118/86",
+            "heart_rate": 65,
+            "bmi": 27.4,
+            "weight_kg": 88.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P103-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness.",
+          "clinical_note": "Patient Olivia Sterling (42yo Female) presented for routine chronic disease follow-up. Chief concern: Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "132/89",
+            "heart_rate": 71,
+            "bmi": 31.2,
+            "weight_kg": 57.2
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2021-03-12",
+          "value": 27.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2022-08-20",
+          "value": 12.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2023-11-05",
+          "value": 91.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2021-03-12",
+          "value": 59.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2022-08-20",
+          "value": 64.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2023-11-05",
+          "value": 73.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2021-03-12",
+          "value": 36.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2022-08-20",
+          "value": 36.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2023-11-05",
+          "value": 44.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P104",
+      "demographics": {
+        "full_name": "Arthur Patel",
+        "gender": "Male",
+        "date_of_birth": "1969-12-26",
+        "age": 55,
+        "blood_type": "B+",
+        "primary_care_physician": "Dr. Gregory Vance, MD (Orthopedic Surgery)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "J44.1",
+          "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+          "onset_date": "2021-08-22"
+        },
+        {
+          "code": "J45.50",
+          "description": "Severe persistent asthma, uncomplicated",
+          "onset_date": "2019-10-17"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Codeine",
+          "reaction": "Nausea, vomiting, severe dizziness",
+          "severity": "Moderate",
+          "recorded_date": "2019-05-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Fluticasone/Vilanterol (Breo Ellipta)",
+          "dosage": "100/25 mcg once daily",
+          "route": "Inhalation",
+          "indication": "COPD controller",
+          "prescribed_date": "2022-04-09"
+        },
+        {
+          "name": "Tiotropium (Spiriva Respimat)",
+          "dosage": "2.5 mcg 2 puffs daily",
+          "route": "Inhalation",
+          "indication": "LAMA bronchodilator",
+          "prescribed_date": "2022-09-11"
+        },
+        {
+          "name": "Albuterol/Ipratropium (Combivent)",
+          "dosage": "2 puffs every 4-6h PRN",
+          "route": "Inhalation",
+          "indication": "Rescue bronchodilator",
+          "prescribed_date": "2023-07-23"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P104-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Arthur Patel (55yo Male) presented for outpatient specialist consultation. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "140/77",
+            "heart_rate": 82,
+            "bmi": 23.2,
+            "weight_kg": 68.4
+          }
+        },
+        {
+          "encounter_id": "ENC-P104-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Annual spirometry evaluation and inhaler technique check.",
+          "clinical_note": "Patient Arthur Patel (55yo Male) presented for routine chronic disease follow-up. Chief concern: Annual spirometry evaluation and inhaler technique check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "147/78",
+            "heart_rate": 64,
+            "bmi": 22.9,
+            "weight_kg": 61.4
+          }
+        },
+        {
+          "encounter_id": "ENC-P104-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Follow-up after recovering from upper respiratory viral infection.",
+          "clinical_note": "Patient Arthur Patel (55yo Male) presented for outpatient specialist consultation. Chief concern: Follow-up after recovering from upper respiratory viral infection. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "118/83",
+            "heart_rate": 78,
+            "bmi": 22.7,
+            "weight_kg": 79.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P104-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Arthur Patel (55yo Male) presented for routine chronic disease follow-up. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "145/74",
+            "heart_rate": 76,
+            "bmi": 26.4,
+            "weight_kg": 81.9
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2021-03-12",
+          "value": 90,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2022-08-20",
+          "value": 91,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2023-11-05",
+          "value": 73,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2021-03-12",
+          "value": 89,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2022-08-20",
+          "value": 83,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2023-11-05",
+          "value": 80,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2021-03-12",
+          "value": 84.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2022-08-20",
+          "value": 41.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2023-11-05",
+          "value": 77.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2021-03-12",
+          "value": 71.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2022-08-20",
+          "value": 45.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2023-11-05",
+          "value": 38.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P105",
+      "demographics": {
+        "full_name": "Liam Dubois",
+        "gender": "Male",
+        "date_of_birth": "1975-11-22",
+        "age": 49,
+        "blood_type": "AB+",
+        "primary_care_physician": "Dr. Marcus Reed, MD (Nephrology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "M05.79",
+          "description": "Rheumatoid arthritis with rheumatoid factor of multiple sites",
+          "onset_date": "2021-12-10"
+        },
+        {
+          "code": "M81.0",
+          "description": "Age-related osteoporosis without current pathological fracture",
+          "onset_date": "2019-07-14"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Latex",
+          "reaction": "Contact dermatitis and localized pruritus",
+          "severity": "Mild",
+          "recorded_date": "2018-08-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Methotrexate",
+          "dosage": "15mg subcutaneously once weekly",
+          "route": "Subcutaneous",
+          "indication": "DMARD for Rheumatoid Arthritis",
+          "prescribed_date": "2022-02-11"
+        },
+        {
+          "name": "Folic Acid",
+          "dosage": "1mg daily (except MTX day)",
+          "route": "Oral",
+          "indication": "Methotrexate toxicity prevention",
+          "prescribed_date": "2023-04-09"
+        },
+        {
+          "name": "Adalimumab (Humira)",
+          "dosage": "40mg every 2 weeks",
+          "route": "Subcutaneous",
+          "indication": "Anti-TNF biologic therapy",
+          "prescribed_date": "2021-12-09"
+        },
+        {
+          "name": "Alendronate (Fosamax)",
+          "dosage": "70mg once weekly",
+          "route": "Oral",
+          "indication": "Osteoporosis prevention",
+          "prescribed_date": "2022-04-13"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P105-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes.",
+          "clinical_note": "Patient Liam Dubois (49yo Male) presented for outpatient specialist consultation. Chief concern: Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "139/92",
+            "heart_rate": 85,
+            "bmi": 23.1,
+            "weight_kg": 94.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P105-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Gregory Vance, MD (Orthopedic Surgery)",
+          "chief_complaint": "Routine 3-month biologic safety monitoring (CBC, LFTs).",
+          "clinical_note": "Patient Liam Dubois (49yo Male) presented for routine chronic disease follow-up. Chief concern: Routine 3-month biologic safety monitoring (CBC, LFTs). Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "148/71",
+            "heart_rate": 78,
+            "bmi": 28.2,
+            "weight_kg": 86.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P105-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Joint discomfort improved; inquiring about bone mineral density scan results.",
+          "clinical_note": "Patient Liam Dubois (49yo Male) presented for outpatient specialist consultation. Chief concern: Joint discomfort improved; inquiring about bone mineral density scan results. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "116/77",
+            "heart_rate": 69,
+            "bmi": 25.9,
+            "weight_kg": 83.2
+          }
+        },
+        {
+          "encounter_id": "ENC-P105-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes.",
+          "clinical_note": "Patient Liam Dubois (49yo Male) presented for routine chronic disease follow-up. Chief concern: Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "119/84",
+            "heart_rate": 72,
+            "bmi": 27.2,
+            "weight_kg": 73.8
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2021-03-12",
+          "value": 14.9,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2022-08-20",
+          "value": 17.5,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2023-11-05",
+          "value": 6.5,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2021-03-12",
+          "value": 27.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2022-08-20",
+          "value": 39.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2023-11-05",
+          "value": 42.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2021-03-12",
+          "value": 90.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2022-08-20",
+          "value": 82.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2023-11-05",
+          "value": 24.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2021-03-12",
+          "value": 25.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2022-08-20",
+          "value": 77.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2023-11-05",
+          "value": 36.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2021-03-12",
+          "value": -2.8,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteoporosis"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2022-08-20",
+          "value": -1.5,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteopenia"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2023-11-05",
+          "value": -2.6,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteoporosis"
+        }
+      ]
+    },
+    {
+      "patient_id": "P106",
+      "demographics": {
+        "full_name": "Alexander Thorne",
+        "gender": "Male",
+        "date_of_birth": "1994-08-12",
+        "age": 30,
+        "blood_type": "AB+",
+        "primary_care_physician": "Dr. Robert Gallagher, MD (Pulmonary Disease)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "M05.79",
+          "description": "Rheumatoid arthritis with rheumatoid factor of multiple sites",
+          "onset_date": "2018-04-21"
+        },
+        {
+          "code": "M81.0",
+          "description": "Age-related osteoporosis without current pathological fracture",
+          "onset_date": "2018-07-17"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Latex",
+          "reaction": "Contact dermatitis and localized pruritus",
+          "severity": "Mild",
+          "recorded_date": "2017-03-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Methotrexate",
+          "dosage": "15mg subcutaneously once weekly",
+          "route": "Subcutaneous",
+          "indication": "DMARD for Rheumatoid Arthritis",
+          "prescribed_date": "2022-10-15"
+        },
+        {
+          "name": "Folic Acid",
+          "dosage": "1mg daily (except MTX day)",
+          "route": "Oral",
+          "indication": "Methotrexate toxicity prevention",
+          "prescribed_date": "2022-08-22"
+        },
+        {
+          "name": "Adalimumab (Humira)",
+          "dosage": "40mg every 2 weeks",
+          "route": "Subcutaneous",
+          "indication": "Anti-TNF biologic therapy",
+          "prescribed_date": "2022-11-27"
+        },
+        {
+          "name": "Alendronate (Fosamax)",
+          "dosage": "70mg once weekly",
+          "route": "Oral",
+          "indication": "Osteoporosis prevention",
+          "prescribed_date": "2022-11-07"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P106-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes.",
+          "clinical_note": "Patient Alexander Thorne (30yo Male) presented for outpatient specialist consultation. Chief concern: Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "121/89",
+            "heart_rate": 72,
+            "bmi": 28.6,
+            "weight_kg": 85.6
+          }
+        },
+        {
+          "encounter_id": "ENC-P106-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Routine 3-month biologic safety monitoring (CBC, LFTs).",
+          "clinical_note": "Patient Alexander Thorne (30yo Male) presented for routine chronic disease follow-up. Chief concern: Routine 3-month biologic safety monitoring (CBC, LFTs). Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "131/76",
+            "heart_rate": 83,
+            "bmi": 26.0,
+            "weight_kg": 59.4
+          }
+        },
+        {
+          "encounter_id": "ENC-P106-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Joint discomfort improved; inquiring about bone mineral density scan results.",
+          "clinical_note": "Patient Alexander Thorne (30yo Male) presented for outpatient specialist consultation. Chief concern: Joint discomfort improved; inquiring about bone mineral density scan results. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "127/73",
+            "heart_rate": 74,
+            "bmi": 28.9,
+            "weight_kg": 93.0
+          }
+        },
+        {
+          "encounter_id": "ENC-P106-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Gregory Vance, MD (Orthopedic Surgery)",
+          "chief_complaint": "Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes.",
+          "clinical_note": "Patient Alexander Thorne (30yo Male) presented for routine chronic disease follow-up. Chief concern: Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "122/86",
+            "heart_rate": 84,
+            "bmi": 23.7,
+            "weight_kg": 88.2
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2021-03-12",
+          "value": 5.2,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2022-08-20",
+          "value": 12.6,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2023-11-05",
+          "value": 5.2,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2021-03-12",
+          "value": 77.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2022-08-20",
+          "value": 78.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2023-11-05",
+          "value": 20.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2021-03-12",
+          "value": 70.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2022-08-20",
+          "value": 72.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2023-11-05",
+          "value": 16.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2021-03-12",
+          "value": 90.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2022-08-20",
+          "value": 15.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2023-11-05",
+          "value": 36.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2021-03-12",
+          "value": -2.6,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteoporosis"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2022-08-20",
+          "value": -1.8,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteopenia"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2023-11-05",
+          "value": -3.0,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteoporosis"
+        }
+      ]
+    },
+    {
+      "patient_id": "P107",
+      "demographics": {
+        "full_name": "Sophia Thorne",
+        "gender": "Female",
+        "date_of_birth": "1952-01-23",
+        "age": 72,
+        "blood_type": "B-",
+        "primary_care_physician": "Dr. David Sterling, MD (Primary Care)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "J44.1",
+          "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+          "onset_date": "2021-08-01"
+        },
+        {
+          "code": "J45.50",
+          "description": "Severe persistent asthma, uncomplicated",
+          "onset_date": "2021-05-18"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Codeine",
+          "reaction": "Nausea, vomiting, severe dizziness",
+          "severity": "Moderate",
+          "recorded_date": "2016-05-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Fluticasone/Vilanterol (Breo Ellipta)",
+          "dosage": "100/25 mcg once daily",
+          "route": "Inhalation",
+          "indication": "COPD controller",
+          "prescribed_date": "2023-07-17"
+        },
+        {
+          "name": "Tiotropium (Spiriva Respimat)",
+          "dosage": "2.5 mcg 2 puffs daily",
+          "route": "Inhalation",
+          "indication": "LAMA bronchodilator",
+          "prescribed_date": "2023-09-25"
+        },
+        {
+          "name": "Albuterol/Ipratropium (Combivent)",
+          "dosage": "2 puffs every 4-6h PRN",
+          "route": "Inhalation",
+          "indication": "Rescue bronchodilator",
+          "prescribed_date": "2023-02-15"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P107-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Sophia Thorne (72yo Female) presented for outpatient specialist consultation. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "135/81",
+            "heart_rate": 82,
+            "bmi": 25.6,
+            "weight_kg": 61.0
+          }
+        },
+        {
+          "encounter_id": "ENC-P107-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. David Sterling, MD (Primary Care)",
+          "chief_complaint": "Annual spirometry evaluation and inhaler technique check.",
+          "clinical_note": "Patient Sophia Thorne (72yo Female) presented for routine chronic disease follow-up. Chief concern: Annual spirometry evaluation and inhaler technique check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "139/91",
+            "heart_rate": 86,
+            "bmi": 29.2,
+            "weight_kg": 55.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P107-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Follow-up after recovering from upper respiratory viral infection.",
+          "clinical_note": "Patient Sophia Thorne (72yo Female) presented for outpatient specialist consultation. Chief concern: Follow-up after recovering from upper respiratory viral infection. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "117/70",
+            "heart_rate": 86,
+            "bmi": 31.5,
+            "weight_kg": 58.9
+          }
+        },
+        {
+          "encounter_id": "ENC-P107-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Sophia Thorne (72yo Female) presented for routine chronic disease follow-up. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "121/82",
+            "heart_rate": 70,
+            "bmi": 29.2,
+            "weight_kg": 89.2
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2021-03-12",
+          "value": 87,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2022-08-20",
+          "value": 85,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2023-11-05",
+          "value": 87,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2021-03-12",
+          "value": 85,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2022-08-20",
+          "value": 88,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2023-11-05",
+          "value": 85,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2021-03-12",
+          "value": 35.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2022-08-20",
+          "value": 13.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2023-11-05",
+          "value": 86.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2021-03-12",
+          "value": 55.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2022-08-20",
+          "value": 11.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2023-11-05",
+          "value": 59.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P108",
+      "demographics": {
+        "full_name": "Maya Patel",
+        "gender": "Female",
+        "date_of_birth": "1948-05-19",
+        "age": 76,
+        "blood_type": "AB+",
+        "primary_care_physician": "Dr. Alistair Mercer, MD (Neurology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "G35",
+          "description": "Multiple sclerosis",
+          "onset_date": "2018-10-12"
+        },
+        {
+          "code": "G62.9",
+          "description": "Polyneuropathy, unspecified",
+          "onset_date": "2021-12-12"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Ocrelizumab (Ocrevus)",
+          "dosage": "600mg IV infusion every 6 months",
+          "route": "Intravenous",
+          "indication": "Disease-modifying therapy for RRMS",
+          "prescribed_date": "2022-02-22"
+        },
+        {
+          "name": "Gabapentin",
+          "dosage": "300mg three times daily",
+          "route": "Oral",
+          "indication": "Neuropathic pain & paresthesias",
+          "prescribed_date": "2023-11-18"
+        },
+        {
+          "name": "Baclofen",
+          "dosage": "10mg twice daily as needed",
+          "route": "Oral",
+          "indication": "Lower extremity spasticity",
+          "prescribed_date": "2021-01-20"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P108-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness.",
+          "clinical_note": "Patient Maya Patel (76yo Female) presented for outpatient specialist consultation. Chief concern: Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "140/76",
+            "heart_rate": 65,
+            "bmi": 22.0,
+            "weight_kg": 82.9
+          }
+        },
+        {
+          "encounter_id": "ENC-P108-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Routine 6-month pre-infusion laboratory and neurological disability (EDSS) check.",
+          "clinical_note": "Patient Maya Patel (76yo Female) presented for routine chronic disease follow-up. Chief concern: Routine 6-month pre-infusion laboratory and neurological disability (EDSS) check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "127/87",
+            "heart_rate": 69,
+            "bmi": 31.5,
+            "weight_kg": 92.4
+          }
+        },
+        {
+          "encounter_id": "ENC-P108-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. David Sterling, MD (Primary Care)",
+          "chief_complaint": "Mild heat intolerance (Uhthoff's phenomenon) during summer weather.",
+          "clinical_note": "Patient Maya Patel (76yo Female) presented for outpatient specialist consultation. Chief concern: Mild heat intolerance (Uhthoff's phenomenon) during summer weather. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "127/76",
+            "heart_rate": 67,
+            "bmi": 25.9,
+            "weight_kg": 89.6
+          }
+        },
+        {
+          "encounter_id": "ENC-P108-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness.",
+          "clinical_note": "Patient Maya Patel (76yo Female) presented for routine chronic disease follow-up. Chief concern: Tingling paresthesias in bilateral lower extremities and mild gait unsteadiness. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "126/77",
+            "heart_rate": 82,
+            "bmi": 25.9,
+            "weight_kg": 90.7
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2021-03-12",
+          "value": 66.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2022-08-20",
+          "value": 90.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Brain & Spine MRI Lesion Count",
+          "date": "2023-11-05",
+          "value": 12.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2021-03-12",
+          "value": 58.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2022-08-20",
+          "value": 14.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Neurofilament Light Chain (sNfL)",
+          "date": "2023-11-05",
+          "value": 25.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2021-03-12",
+          "value": 24.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2022-08-20",
+          "value": 90.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Immunoglobulin G (IgG)",
+          "date": "2023-11-05",
+          "value": 12.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P109",
+      "demographics": {
+        "full_name": "Henry Holloway",
+        "gender": "Male",
+        "date_of_birth": "1951-11-19",
+        "age": 73,
+        "blood_type": "O-",
+        "primary_care_physician": "Dr. Beatrice Thorne, MD (Rheumatology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "E11.22",
+          "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+          "onset_date": "2020-06-19"
+        },
+        {
+          "code": "I10",
+          "description": "Essential (primary) hypertension",
+          "onset_date": "2018-01-27"
+        },
+        {
+          "code": "E78.5",
+          "description": "Hyperlipidemia, unspecified",
+          "onset_date": "2018-06-26"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Sulfa Drugs",
+          "reaction": "Urticaria and facial swelling",
+          "severity": "Moderate",
+          "recorded_date": "2020-02-15"
+        },
+        {
+          "substance": "Penicillin",
+          "reaction": "Maculopapular rash",
+          "severity": "Mild",
+          "recorded_date": "2020-08-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Metformin",
+          "dosage": "500mg twice daily",
+          "route": "Oral",
+          "indication": "Glycemic control",
+          "prescribed_date": "2023-07-20"
+        },
+        {
+          "name": "Empagliflozin (Jardiance)",
+          "dosage": "10mg daily",
+          "route": "Oral",
+          "indication": "Cardiorenal protection & T2D",
+          "prescribed_date": "2023-06-17"
+        },
+        {
+          "name": "Lisinopril",
+          "dosage": "20mg daily",
+          "route": "Oral",
+          "indication": "Hypertension & Renal Protection",
+          "prescribed_date": "2022-09-16"
+        },
+        {
+          "name": "Atorvastatin",
+          "dosage": "40mg daily",
+          "route": "Oral",
+          "indication": "Lipid management",
+          "prescribed_date": "2022-06-28"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P109-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Routine 6-month diabetic checkup and review of blood glucose logs.",
+          "clinical_note": "Patient Henry Holloway (73yo Male) presented for outpatient specialist consultation. Chief concern: Routine 6-month diabetic checkup and review of blood glucose logs. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "126/92",
+            "heart_rate": 68,
+            "bmi": 31.5,
+            "weight_kg": 92.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P109-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Gregory Vance, MD (Orthopedic Surgery)",
+          "chief_complaint": "Complaining of mild lower extremity edema and morning fatigue.",
+          "clinical_note": "Patient Henry Holloway (73yo Male) presented for routine chronic disease follow-up. Chief concern: Complaining of mild lower extremity edema and morning fatigue. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "122/78",
+            "heart_rate": 81,
+            "bmi": 22.1,
+            "weight_kg": 90.0
+          }
+        },
+        {
+          "encounter_id": "ENC-P109-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Annual nephrology follow-up to monitor proteinuria and eGFR stability.",
+          "clinical_note": "Patient Henry Holloway (73yo Male) presented for outpatient specialist consultation. Chief concern: Annual nephrology follow-up to monitor proteinuria and eGFR stability. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "121/79",
+            "heart_rate": 75,
+            "bmi": 30.3,
+            "weight_kg": 89.2
+          }
+        },
+        {
+          "encounter_id": "ENC-P109-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Routine 6-month diabetic checkup and review of blood glucose logs.",
+          "clinical_note": "Patient Henry Holloway (73yo Male) presented for routine chronic disease follow-up. Chief concern: Routine 6-month diabetic checkup and review of blood glucose logs. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "122/78",
+            "heart_rate": 86,
+            "bmi": 26.3,
+            "weight_kg": 79.4
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Hemoglobin A1c",
+          "date": "2021-03-12",
+          "value": 8.5,
+          "unit": "%",
+          "reference_range": "< 5.7",
+          "interpretation": "Elevated / Diabetic Range"
+        },
+        {
+          "test_name": "Hemoglobin A1c",
+          "date": "2022-08-20",
+          "value": 8.3,
+          "unit": "%",
+          "reference_range": "< 5.7",
+          "interpretation": "Elevated / Diabetic Range"
+        },
+        {
+          "test_name": "Hemoglobin A1c",
+          "date": "2023-11-05",
+          "value": 7.5,
+          "unit": "%",
+          "reference_range": "< 5.7",
+          "interpretation": "Elevated / Diabetic Range"
+        },
+        {
+          "test_name": "Estimated GFR (eGFR)",
+          "date": "2021-03-12",
+          "value": 69,
+          "unit": "mL/min/1.73m2",
+          "reference_range": "> 60",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Estimated GFR (eGFR)",
+          "date": "2022-08-20",
+          "value": 78,
+          "unit": "mL/min/1.73m2",
+          "reference_range": "> 60",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Estimated GFR (eGFR)",
+          "date": "2023-11-05",
+          "value": 54,
+          "unit": "mL/min/1.73m2",
+          "reference_range": "> 60",
+          "interpretation": "Mild-to-Moderate Reduction"
+        },
+        {
+          "test_name": "Serum Creatinine",
+          "date": "2021-03-12",
+          "value": 1.21,
+          "unit": "mg/dL",
+          "reference_range": "0.6 - 1.2",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "Serum Creatinine",
+          "date": "2022-08-20",
+          "value": 1.56,
+          "unit": "mg/dL",
+          "reference_range": "0.6 - 1.2",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "Serum Creatinine",
+          "date": "2023-11-05",
+          "value": 1.15,
+          "unit": "mg/dL",
+          "reference_range": "0.6 - 1.2",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Urine Albumin/Creatinine Ratio",
+          "date": "2021-03-12",
+          "value": 1.29,
+          "unit": "mg/dL",
+          "reference_range": "0.6 - 1.2",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "Urine Albumin/Creatinine Ratio",
+          "date": "2022-08-20",
+          "value": 1.18,
+          "unit": "mg/dL",
+          "reference_range": "0.6 - 1.2",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Urine Albumin/Creatinine Ratio",
+          "date": "2023-11-05",
+          "value": 1.02,
+          "unit": "mg/dL",
+          "reference_range": "0.6 - 1.2",
+          "interpretation": "Normal"
+        }
+      ]
+    },
+    {
+      "patient_id": "P110",
+      "demographics": {
+        "full_name": "Ava Vance",
+        "gender": "Female",
+        "date_of_birth": "1967-08-21",
+        "age": 57,
+        "blood_type": "A+",
+        "primary_care_physician": "Dr. Anthony Rossi, MD (Interventional Cardiology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "J44.1",
+          "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+          "onset_date": "2018-11-21"
+        },
+        {
+          "code": "J45.50",
+          "description": "Severe persistent asthma, uncomplicated",
+          "onset_date": "2019-03-01"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Codeine",
+          "reaction": "Nausea, vomiting, severe dizziness",
+          "severity": "Moderate",
+          "recorded_date": "2017-04-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Fluticasone/Vilanterol (Breo Ellipta)",
+          "dosage": "100/25 mcg once daily",
+          "route": "Inhalation",
+          "indication": "COPD controller",
+          "prescribed_date": "2021-09-16"
+        },
+        {
+          "name": "Tiotropium (Spiriva Respimat)",
+          "dosage": "2.5 mcg 2 puffs daily",
+          "route": "Inhalation",
+          "indication": "LAMA bronchodilator",
+          "prescribed_date": "2022-07-22"
+        },
+        {
+          "name": "Albuterol/Ipratropium (Combivent)",
+          "dosage": "2 puffs every 4-6h PRN",
+          "route": "Inhalation",
+          "indication": "Rescue bronchodilator",
+          "prescribed_date": "2021-02-18"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P110-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Ava Vance (57yo Female) presented for outpatient specialist consultation. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "145/78",
+            "heart_rate": 66,
+            "bmi": 26.2,
+            "weight_kg": 79.1
+          }
+        },
+        {
+          "encounter_id": "ENC-P110-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Annual spirometry evaluation and inhaler technique check.",
+          "clinical_note": "Patient Ava Vance (57yo Female) presented for routine chronic disease follow-up. Chief concern: Annual spirometry evaluation and inhaler technique check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "148/90",
+            "heart_rate": 70,
+            "bmi": 28.5,
+            "weight_kg": 76.6
+          }
+        },
+        {
+          "encounter_id": "ENC-P110-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Follow-up after recovering from upper respiratory viral infection.",
+          "clinical_note": "Patient Ava Vance (57yo Female) presented for outpatient specialist consultation. Chief concern: Follow-up after recovering from upper respiratory viral infection. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "121/84",
+            "heart_rate": 62,
+            "bmi": 30.8,
+            "weight_kg": 70.4
+          }
+        },
+        {
+          "encounter_id": "ENC-P110-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Ava Vance (57yo Female) presented for routine chronic disease follow-up. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "143/71",
+            "heart_rate": 64,
+            "bmi": 25.0,
+            "weight_kg": 91.4
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2021-03-12",
+          "value": 66,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2022-08-20",
+          "value": 78,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2023-11-05",
+          "value": 82,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2021-03-12",
+          "value": 92,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2022-08-20",
+          "value": 70,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2023-11-05",
+          "value": 78,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2021-03-12",
+          "value": 66.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2022-08-20",
+          "value": 59.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2023-11-05",
+          "value": 76.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2021-03-12",
+          "value": 54.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2022-08-20",
+          "value": 15.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2023-11-05",
+          "value": 29.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P111",
+      "demographics": {
+        "full_name": "Alexander Chen",
+        "gender": "Male",
+        "date_of_birth": "1948-04-12",
+        "age": 76,
+        "blood_type": "AB+",
+        "primary_care_physician": "Dr. David Sterling, MD (Primary Care)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "K50.10",
+          "description": "Crohn's disease of large intestine without complications",
+          "onset_date": "2019-05-22"
+        },
+        {
+          "code": "D50.9",
+          "description": "Iron deficiency anemia, unspecified",
+          "onset_date": "2021-12-07"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Ustekinumab (Stelara)",
+          "dosage": "90mg subcutaneous every 8 weeks",
+          "route": "Subcutaneous",
+          "indication": "Biologic maintenance for Crohn's",
+          "prescribed_date": "2021-06-21"
+        },
+        {
+          "name": "Ferric Carboxymaltose (Injectafer)",
+          "dosage": "750mg IV infusion x 2 doses",
+          "route": "Intravenous",
+          "indication": "Refractory iron deficiency anemia",
+          "prescribed_date": "2023-04-16"
+        },
+        {
+          "name": "Mesalamine",
+          "dosage": "1.2g twice daily",
+          "route": "Oral",
+          "indication": "Mucosal anti-inflammatory",
+          "prescribed_date": "2022-06-23"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P111-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily.",
+          "clinical_note": "Patient Alexander Chen (76yo Male) presented for outpatient specialist consultation. Chief concern: Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "146/75",
+            "heart_rate": 63,
+            "bmi": 22.7,
+            "weight_kg": 83.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P111-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Fatigue, pallor, and follow-up on post-infusion iron parameters.",
+          "clinical_note": "Patient Alexander Chen (76yo Male) presented for routine chronic disease follow-up. Chief concern: Fatigue, pallor, and follow-up on post-infusion iron parameters. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "120/75",
+            "heart_rate": 64,
+            "bmi": 24.8,
+            "weight_kg": 90.8
+          }
+        },
+        {
+          "encounter_id": "ENC-P111-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Surveillance colonoscopy consultation and biologic drug trough level check.",
+          "clinical_note": "Patient Alexander Chen (76yo Male) presented for outpatient specialist consultation. Chief concern: Surveillance colonoscopy consultation and biologic drug trough level check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "141/80",
+            "heart_rate": 79,
+            "bmi": 24.1,
+            "weight_kg": 90.9
+          }
+        },
+        {
+          "encounter_id": "ENC-P111-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily.",
+          "clinical_note": "Patient Alexander Chen (76yo Male) presented for routine chronic disease follow-up. Chief concern: Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "129/78",
+            "heart_rate": 64,
+            "bmi": 30.2,
+            "weight_kg": 56.2
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Fecal Calprotectin",
+          "date": "2021-03-12",
+          "value": 28.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Fecal Calprotectin",
+          "date": "2022-08-20",
+          "value": 43.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Fecal Calprotectin",
+          "date": "2023-11-05",
+          "value": 82.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "date": "2021-03-12",
+          "value": 87.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "date": "2022-08-20",
+          "value": 29.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "date": "2023-11-05",
+          "value": 35.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "date": "2021-03-12",
+          "value": 62.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "date": "2022-08-20",
+          "value": 44.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "date": "2023-11-05",
+          "value": 63.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2021-03-12",
+          "value": 16.2,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2022-08-20",
+          "value": 12.5,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2023-11-05",
+          "value": 3.3,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Normal / Controlled"
+        }
+      ]
+    },
+    {
+      "patient_id": "P112",
+      "demographics": {
+        "full_name": "Julian Thorne",
+        "gender": "Male",
+        "date_of_birth": "1957-07-28",
+        "age": 67,
+        "blood_type": "AB-",
+        "primary_care_physician": "Dr. Alistair Mercer, MD (Neurology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "I25.10",
+          "description": "Atherosclerotic heart disease of native coronary artery",
+          "onset_date": "2020-10-20"
+        },
+        {
+          "code": "I50.32",
+          "description": "Chronic diastolic (congestive) heart failure",
+          "onset_date": "2021-06-01"
+        },
+        {
+          "code": "I48.91",
+          "description": "Unspecified atrial fibrillation",
+          "onset_date": "2020-10-09"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Clopidogrel (Plavix)",
+          "dosage": "75mg daily",
+          "route": "Oral",
+          "indication": "Antiplatelet post-PCI",
+          "prescribed_date": "2023-08-17"
+        },
+        {
+          "name": "Apixaban (Eliquis)",
+          "dosage": "5mg twice daily",
+          "route": "Oral",
+          "indication": "Stroke prevention in AFib",
+          "prescribed_date": "2022-05-26"
+        },
+        {
+          "name": "Carvedilol",
+          "dosage": "12.5mg twice daily",
+          "route": "Oral",
+          "indication": "Rate control & cardioprotection",
+          "prescribed_date": "2022-03-27"
+        },
+        {
+          "name": "Sacubitril/Valsartan (Entresto)",
+          "dosage": "24/26mg twice daily",
+          "route": "Oral",
+          "indication": "Heart failure guideline therapy",
+          "prescribed_date": "2022-07-03"
+        },
+        {
+          "name": "Furosemide (Lasix)",
+          "dosage": "20mg daily as needed",
+          "route": "Oral",
+          "indication": "Volume overload management",
+          "prescribed_date": "2022-08-15"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P112-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. David Sterling, MD (Primary Care)",
+          "chief_complaint": "Exertional dyspnea when climbing stairs and mild bilateral ankle swelling.",
+          "clinical_note": "Patient Julian Thorne (67yo Male) presented for outpatient specialist consultation. Chief concern: Exertional dyspnea when climbing stairs and mild bilateral ankle swelling. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "133/71",
+            "heart_rate": 75,
+            "bmi": 26.4,
+            "weight_kg": 72.2
+          }
+        },
+        {
+          "encounter_id": "ENC-P112-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Routine cardiology post-stent surveillance and ECG rhythm check.",
+          "clinical_note": "Patient Julian Thorne (67yo Male) presented for routine chronic disease follow-up. Chief concern: Routine cardiology post-stent surveillance and ECG rhythm check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "130/87",
+            "heart_rate": 70,
+            "bmi": 27.0,
+            "weight_kg": 89.6
+          }
+        },
+        {
+          "encounter_id": "ENC-P112-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Sarah Jenkins, MD (Internal Medicine)",
+          "chief_complaint": "Palpitations and lightheadedness lasting 10 minutes.",
+          "clinical_note": "Patient Julian Thorne (67yo Male) presented for outpatient specialist consultation. Chief concern: Palpitations and lightheadedness lasting 10 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "143/89",
+            "heart_rate": 66,
+            "bmi": 26.4,
+            "weight_kg": 94.8
+          }
+        },
+        {
+          "encounter_id": "ENC-P112-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Exertional dyspnea when climbing stairs and mild bilateral ankle swelling.",
+          "clinical_note": "Patient Julian Thorne (67yo Male) presented for routine chronic disease follow-up. Chief concern: Exertional dyspnea when climbing stairs and mild bilateral ankle swelling. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "130/72",
+            "heart_rate": 74,
+            "bmi": 25.3,
+            "weight_kg": 83.5
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "NT-proBNP",
+          "date": "2021-03-12",
+          "value": 24.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "NT-proBNP",
+          "date": "2022-08-20",
+          "value": 50.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "NT-proBNP",
+          "date": "2023-11-05",
+          "value": 39.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Troponin I",
+          "date": "2021-03-12",
+          "value": 6.11,
+          "unit": "ng/mL",
+          "reference_range": "< 0.04",
+          "interpretation": "Critical Elevation"
+        },
+        {
+          "test_name": "Troponin I",
+          "date": "2022-08-20",
+          "value": 8.15,
+          "unit": "ng/mL",
+          "reference_range": "< 0.04",
+          "interpretation": "Critical Elevation"
+        },
+        {
+          "test_name": "Troponin I",
+          "date": "2023-11-05",
+          "value": 6.76,
+          "unit": "ng/mL",
+          "reference_range": "< 0.04",
+          "interpretation": "Critical Elevation"
+        },
+        {
+          "test_name": "Total Cholesterol",
+          "date": "2021-03-12",
+          "value": 50.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Cholesterol",
+          "date": "2022-08-20",
+          "value": 62.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Total Cholesterol",
+          "date": "2023-11-05",
+          "value": 53.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "LDL Cholesterol",
+          "date": "2021-03-12",
+          "value": 70,
+          "unit": "mg/dL",
+          "reference_range": "< 100",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "LDL Cholesterol",
+          "date": "2022-08-20",
+          "value": 55,
+          "unit": "mg/dL",
+          "reference_range": "< 100",
+          "interpretation": "Optimal on Statin"
+        },
+        {
+          "test_name": "LDL Cholesterol",
+          "date": "2023-11-05",
+          "value": 154,
+          "unit": "mg/dL",
+          "reference_range": "< 100",
+          "interpretation": "Elevated"
+        },
+        {
+          "test_name": "Serum Potassium",
+          "date": "2021-03-12",
+          "value": 94.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Potassium",
+          "date": "2022-08-20",
+          "value": 25.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Potassium",
+          "date": "2023-11-05",
+          "value": 69.5,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P113",
+      "demographics": {
+        "full_name": "Oliver Lin",
+        "gender": "Male",
+        "date_of_birth": "1972-01-17",
+        "age": 52,
+        "blood_type": "AB-",
+        "primary_care_physician": "Dr. Anthony Rossi, MD (Interventional Cardiology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "M05.79",
+          "description": "Rheumatoid arthritis with rheumatoid factor of multiple sites",
+          "onset_date": "2018-02-13"
+        },
+        {
+          "code": "M81.0",
+          "description": "Age-related osteoporosis without current pathological fracture",
+          "onset_date": "2019-11-01"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Methotrexate",
+          "dosage": "15mg subcutaneously once weekly",
+          "route": "Subcutaneous",
+          "indication": "DMARD for Rheumatoid Arthritis",
+          "prescribed_date": "2023-10-20"
+        },
+        {
+          "name": "Folic Acid",
+          "dosage": "1mg daily (except MTX day)",
+          "route": "Oral",
+          "indication": "Methotrexate toxicity prevention",
+          "prescribed_date": "2022-12-27"
+        },
+        {
+          "name": "Adalimumab (Humira)",
+          "dosage": "40mg every 2 weeks",
+          "route": "Subcutaneous",
+          "indication": "Anti-TNF biologic therapy",
+          "prescribed_date": "2022-09-23"
+        },
+        {
+          "name": "Alendronate (Fosamax)",
+          "dosage": "70mg once weekly",
+          "route": "Oral",
+          "indication": "Osteoporosis prevention",
+          "prescribed_date": "2023-10-24"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P113-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes.",
+          "clinical_note": "Patient Oliver Lin (52yo Male) presented for outpatient specialist consultation. Chief concern: Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "142/88",
+            "heart_rate": 63,
+            "bmi": 32.3,
+            "weight_kg": 76.8
+          }
+        },
+        {
+          "encounter_id": "ENC-P113-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Routine 3-month biologic safety monitoring (CBC, LFTs).",
+          "clinical_note": "Patient Oliver Lin (52yo Male) presented for routine chronic disease follow-up. Chief concern: Routine 3-month biologic safety monitoring (CBC, LFTs). Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "125/86",
+            "heart_rate": 77,
+            "bmi": 23.5,
+            "weight_kg": 72.7
+          }
+        },
+        {
+          "encounter_id": "ENC-P113-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Joint discomfort improved; inquiring about bone mineral density scan results.",
+          "clinical_note": "Patient Oliver Lin (52yo Male) presented for outpatient specialist consultation. Chief concern: Joint discomfort improved; inquiring about bone mineral density scan results. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "145/73",
+            "heart_rate": 72,
+            "bmi": 23.2,
+            "weight_kg": 76.3
+          }
+        },
+        {
+          "encounter_id": "ENC-P113-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes.",
+          "clinical_note": "Patient Oliver Lin (52yo Male) presented for routine chronic disease follow-up. Chief concern: Morning stiffness in bilateral wrists and MCP joints lasting > 60 minutes. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "135/77",
+            "heart_rate": 62,
+            "bmi": 25.7,
+            "weight_kg": 58.3
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2021-03-12",
+          "value": 11.7,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2022-08-20",
+          "value": 14.5,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2023-11-05",
+          "value": 1.8,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Normal / Controlled"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2021-03-12",
+          "value": 42.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2022-08-20",
+          "value": 90.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "date": "2023-11-05",
+          "value": 19.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2021-03-12",
+          "value": 26.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2022-08-20",
+          "value": 62.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Rheumatoid Factor (RF)",
+          "date": "2023-11-05",
+          "value": 43.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2021-03-12",
+          "value": 14.6,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2022-08-20",
+          "value": 51.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Anti-CCP Antibodies",
+          "date": "2023-11-05",
+          "value": 48.1,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2021-03-12",
+          "value": -3.1,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteoporosis"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2022-08-20",
+          "value": -2.0,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteopenia"
+        },
+        {
+          "test_name": "DEXA T-Score (Lumbar Spine)",
+          "date": "2023-11-05",
+          "value": -1.8,
+          "unit": "T-score",
+          "reference_range": "> -1.0",
+          "interpretation": "Osteopenia"
+        }
+      ]
+    },
+    {
+      "patient_id": "P114",
+      "demographics": {
+        "full_name": "Samuel Dubois",
+        "gender": "Male",
+        "date_of_birth": "1967-11-10",
+        "age": 57,
+        "blood_type": "O-",
+        "primary_care_physician": "Dr. Anthony Rossi, MD (Interventional Cardiology)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "K50.10",
+          "description": "Crohn's disease of large intestine without complications",
+          "onset_date": "2021-03-03"
+        },
+        {
+          "code": "D50.9",
+          "description": "Iron deficiency anemia, unspecified",
+          "onset_date": "2021-07-28"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Ustekinumab (Stelara)",
+          "dosage": "90mg subcutaneous every 8 weeks",
+          "route": "Subcutaneous",
+          "indication": "Biologic maintenance for Crohn's",
+          "prescribed_date": "2021-01-22"
+        },
+        {
+          "name": "Ferric Carboxymaltose (Injectafer)",
+          "dosage": "750mg IV infusion x 2 doses",
+          "route": "Intravenous",
+          "indication": "Refractory iron deficiency anemia",
+          "prescribed_date": "2022-03-27"
+        },
+        {
+          "name": "Mesalamine",
+          "dosage": "1.2g twice daily",
+          "route": "Oral",
+          "indication": "Mucosal anti-inflammatory",
+          "prescribed_date": "2021-09-17"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P114-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily.",
+          "clinical_note": "Patient Samuel Dubois (57yo Male) presented for outpatient specialist consultation. Chief concern: Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "134/88",
+            "heart_rate": 86,
+            "bmi": 25.2,
+            "weight_kg": 63.3
+          }
+        },
+        {
+          "encounter_id": "ENC-P114-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Gregory Vance, MD (Orthopedic Surgery)",
+          "chief_complaint": "Fatigue, pallor, and follow-up on post-infusion iron parameters.",
+          "clinical_note": "Patient Samuel Dubois (57yo Male) presented for routine chronic disease follow-up. Chief concern: Fatigue, pallor, and follow-up on post-infusion iron parameters. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "131/84",
+            "heart_rate": 69,
+            "bmi": 23.7,
+            "weight_kg": 81.6
+          }
+        },
+        {
+          "encounter_id": "ENC-P114-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Anthony Rossi, MD (Interventional Cardiology)",
+          "chief_complaint": "Surveillance colonoscopy consultation and biologic drug trough level check.",
+          "clinical_note": "Patient Samuel Dubois (57yo Male) presented for outpatient specialist consultation. Chief concern: Surveillance colonoscopy consultation and biologic drug trough level check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "133/89",
+            "heart_rate": 66,
+            "bmi": 24.6,
+            "weight_kg": 64.3
+          }
+        },
+        {
+          "encounter_id": "ENC-P114-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Robert Gallagher, MD (Pulmonary Disease)",
+          "chief_complaint": "Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily.",
+          "clinical_note": "Patient Samuel Dubois (57yo Male) presented for routine chronic disease follow-up. Chief concern: Intermittent lower quadrant crampy abdominal pain and 3-4 loose stools daily. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "137/84",
+            "heart_rate": 65,
+            "bmi": 30.5,
+            "weight_kg": 94.8
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Fecal Calprotectin",
+          "date": "2021-03-12",
+          "value": 41.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Fecal Calprotectin",
+          "date": "2022-08-20",
+          "value": 22.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Fecal Calprotectin",
+          "date": "2023-11-05",
+          "value": 80.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "date": "2021-03-12",
+          "value": 23.0,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "date": "2022-08-20",
+          "value": 65.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "date": "2023-11-05",
+          "value": 35.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "date": "2021-03-12",
+          "value": 87.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "date": "2022-08-20",
+          "value": 33.7,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "date": "2023-11-05",
+          "value": 15.2,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2021-03-12",
+          "value": 14.8,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2022-08-20",
+          "value": 7.3,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        },
+        {
+          "test_name": "C-Reactive Protein (CRP)",
+          "date": "2023-11-05",
+          "value": 16.4,
+          "unit": "mg/L",
+          "reference_range": "< 3.0",
+          "interpretation": "Active Systemic Inflammation"
+        }
+      ]
+    },
+    {
+      "patient_id": "P115",
+      "demographics": {
+        "full_name": "Samuel Al-Mansoor",
+        "gender": "Male",
+        "date_of_birth": "1969-12-02",
+        "age": 55,
+        "blood_type": "A-",
+        "primary_care_physician": "Dr. Gregory Vance, MD (Orthopedic Surgery)"
+      },
+      "active_diagnoses": [
+        {
+          "code": "J44.1",
+          "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+          "onset_date": "2018-03-24"
+        },
+        {
+          "code": "J45.50",
+          "description": "Severe persistent asthma, uncomplicated",
+          "onset_date": "2021-08-27"
+        }
+      ],
+      "allergies": [
+        {
+          "substance": "Codeine",
+          "reaction": "Nausea, vomiting, severe dizziness",
+          "severity": "Moderate",
+          "recorded_date": "2018-04-15"
+        }
+      ],
+      "active_medications": [
+        {
+          "name": "Fluticasone/Vilanterol (Breo Ellipta)",
+          "dosage": "100/25 mcg once daily",
+          "route": "Inhalation",
+          "indication": "COPD controller",
+          "prescribed_date": "2022-12-01"
+        },
+        {
+          "name": "Tiotropium (Spiriva Respimat)",
+          "dosage": "2.5 mcg 2 puffs daily",
+          "route": "Inhalation",
+          "indication": "LAMA bronchodilator",
+          "prescribed_date": "2023-06-17"
+        },
+        {
+          "name": "Albuterol/Ipratropium (Combivent)",
+          "dosage": "2 puffs every 4-6h PRN",
+          "route": "Inhalation",
+          "indication": "Rescue bronchodilator",
+          "prescribed_date": "2022-08-21"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P115-01",
+          "encounter_date": "2021-03-12",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Helen Cho, MD (Gastroenterology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Samuel Al-Mansoor (55yo Male) presented for outpatient specialist consultation. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "147/82",
+            "heart_rate": 67,
+            "bmi": 24.7,
+            "weight_kg": 87.4
+          }
+        },
+        {
+          "encounter_id": "ENC-P115-02",
+          "encounter_date": "2022-08-20",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Marcus Reed, MD (Nephrology)",
+          "chief_complaint": "Annual spirometry evaluation and inhaler technique check.",
+          "clinical_note": "Patient Samuel Al-Mansoor (55yo Male) presented for routine chronic disease follow-up. Chief concern: Annual spirometry evaluation and inhaler technique check. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "117/88",
+            "heart_rate": 69,
+            "bmi": 31.0,
+            "weight_kg": 64.8
+          }
+        },
+        {
+          "encounter_id": "ENC-P115-03",
+          "encounter_date": "2023-11-05",
+          "encounter_type": "Outpatient Specialist Consultation",
+          "provider": "Dr. Alistair Mercer, MD (Neurology)",
+          "chief_complaint": "Follow-up after recovering from upper respiratory viral infection.",
+          "clinical_note": "Patient Samuel Al-Mansoor (55yo Male) presented for outpatient specialist consultation. Chief concern: Follow-up after recovering from upper respiratory viral infection. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "144/86",
+            "heart_rate": 67,
+            "bmi": 30.1,
+            "weight_kg": 81.5
+          }
+        },
+        {
+          "encounter_id": "ENC-P115-04",
+          "encounter_date": "2024-04-18",
+          "encounter_type": "Routine Chronic Disease Follow-up",
+          "provider": "Dr. Beatrice Thorne, MD (Rheumatology)",
+          "chief_complaint": "Increased productive cough with yellow sputum and tightness in chest.",
+          "clinical_note": "Patient Samuel Al-Mansoor (55yo Male) presented for routine chronic disease follow-up. Chief concern: Increased productive cough with yellow sputum and tightness in chest. Medication adherence was verified and tolerability is acceptable. Physical examination revealed regular heart rate and rhythm, clear lungs, and benign abdomen. Plan discussed with patient: continue current medical regimen, monitor symptom diary, and repeat surveillance laboratory testing in 6 months.",
+          "vitals": {
+            "blood_pressure": "136/92",
+            "heart_rate": 70,
+            "bmi": 24.9,
+            "weight_kg": 67.2
+          }
+        }
+      ],
+      "lab_results": [
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2021-03-12",
+          "value": 86,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2022-08-20",
+          "value": 73,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "Spirometry FEV1 (% Predicted)",
+          "date": "2023-11-05",
+          "value": 90,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2021-03-12",
+          "value": 63,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2022-08-20",
+          "value": 88,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Normal"
+        },
+        {
+          "test_name": "FEV1/FVC Ratio",
+          "date": "2023-11-05",
+          "value": 69,
+          "unit": "%",
+          "reference_range": "> 80",
+          "interpretation": "Mild-to-Moderate Obstruction"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2021-03-12",
+          "value": 19.4,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2022-08-20",
+          "value": 65.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Absolute Eosinophil Count",
+          "date": "2023-11-05",
+          "value": 59.9,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2021-03-12",
+          "value": 13.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2022-08-20",
+          "value": 73.8,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        },
+        {
+          "test_name": "Arterial Blood Gas pO2",
+          "date": "2023-11-05",
+          "value": 10.3,
+          "unit": "units",
+          "reference_range": "Standard Ref",
+          "interpretation": "Clinical finding noted"
+        }
+      ]
+    },
+    {
+      "patient_id": "P200",
+      "demographics": {
+        "full_name": "Test Upload Patient",
+        "age": 50,
+        "gender": "Female"
+      },
+      "active_diagnoses": [
+        {
+          "code": "I10",
+          "description": "Hypertension"
+        }
+      ],
+      "allergies": [],
+      "active_medications": [
+        {
+          "name": "Amlodipine",
+          "dosage": "5mg"
+        }
+      ],
+      "encounters": [
+        {
+          "encounter_id": "ENC-P200-01",
+          "encounter_date": "2024-01-10",
+          "encounter_type": "Clinic Visit",
+          "clinical_note": "Blood pressure is 120/80 on Amlodipine 5mg."
+        }
+      ],
+      "lab_results": []
+    }
+  ]
+}

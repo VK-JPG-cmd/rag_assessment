@@ -1,0 +1,10 @@
+patient_id,substance,reaction,severity,recorded_date
+P101,Aspirin,Severe bronchospasm and urticaria,Severe,2016-03-15
+P104,Codeine,"Nausea, vomiting, severe dizziness",Moderate,2019-05-15
+P105,Latex,Contact dermatitis and localized pruritus,Mild,2018-08-15
+P106,Latex,Contact dermatitis and localized pruritus,Mild,2017-03-15
+P107,Codeine,"Nausea, vomiting, severe dizziness",Moderate,2016-05-15
+P109,Sulfa Drugs,Urticaria and facial swelling,Moderate,2020-02-15
+P109,Penicillin,Maculopapular rash,Mild,2020-08-15
+P110,Codeine,"Nausea, vomiting, severe dizziness",Moderate,2017-04-15
+P115,Codeine,"Nausea, vomiting, severe dizziness",Moderate,2018-04-15

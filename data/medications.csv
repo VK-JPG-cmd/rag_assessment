@@ -1,0 +1,54 @@
+patient_id,name,dosage,route,indication,prescribed_date
+P101,Clopidogrel (Plavix),75mg daily,Oral,Antiplatelet post-PCI,2023-02-08
+P101,Apixaban (Eliquis),5mg twice daily,Oral,Stroke prevention in AFib,2023-01-20
+P101,Carvedilol,12.5mg twice daily,Oral,Rate control & cardioprotection,2022-09-23
+P101,Sacubitril/Valsartan (Entresto),24/26mg twice daily,Oral,Heart failure guideline therapy,2023-09-15
+P101,Furosemide (Lasix),20mg daily as needed,Oral,Volume overload management,2021-12-01
+P102,Ocrelizumab (Ocrevus),600mg IV infusion every 6 months,Intravenous,Disease-modifying therapy for RRMS,2021-03-25
+P102,Gabapentin,300mg three times daily,Oral,Neuropathic pain & paresthesias,2023-02-03
+P102,Baclofen,10mg twice daily as needed,Oral,Lower extremity spasticity,2021-09-18
+P103,Ocrelizumab (Ocrevus),600mg IV infusion every 6 months,Intravenous,Disease-modifying therapy for RRMS,2021-09-22
+P103,Gabapentin,300mg three times daily,Oral,Neuropathic pain & paresthesias,2023-02-25
+P103,Baclofen,10mg twice daily as needed,Oral,Lower extremity spasticity,2023-05-10
+P104,Fluticasone/Vilanterol (Breo Ellipta),100/25 mcg once daily,Inhalation,COPD controller,2022-04-09
+P104,Tiotropium (Spiriva Respimat),2.5 mcg 2 puffs daily,Inhalation,LAMA bronchodilator,2022-09-11
+P104,Albuterol/Ipratropium (Combivent),2 puffs every 4-6h PRN,Inhalation,Rescue bronchodilator,2023-07-23
+P105,Methotrexate,15mg subcutaneously once weekly,Subcutaneous,DMARD for Rheumatoid Arthritis,2022-02-11
+P105,Folic Acid,1mg daily (except MTX day),Oral,Methotrexate toxicity prevention,2023-04-09
+P105,Adalimumab (Humira),40mg every 2 weeks,Subcutaneous,Anti-TNF biologic therapy,2021-12-09
+P105,Alendronate (Fosamax),70mg once weekly,Oral,Osteoporosis prevention,2022-04-13
+P106,Methotrexate,15mg subcutaneously once weekly,Subcutaneous,DMARD for Rheumatoid Arthritis,2022-10-15
+P106,Folic Acid,1mg daily (except MTX day),Oral,Methotrexate toxicity prevention,2022-08-22
+P106,Adalimumab (Humira),40mg every 2 weeks,Subcutaneous,Anti-TNF biologic therapy,2022-11-27
+P106,Alendronate (Fosamax),70mg once weekly,Oral,Osteoporosis prevention,2022-11-07
+P107,Fluticasone/Vilanterol (Breo Ellipta),100/25 mcg once daily,Inhalation,COPD controller,2023-07-17
+P107,Tiotropium (Spiriva Respimat),2.5 mcg 2 puffs daily,Inhalation,LAMA bronchodilator,2023-09-25
+P107,Albuterol/Ipratropium (Combivent),2 puffs every 4-6h PRN,Inhalation,Rescue bronchodilator,2023-02-15
+P108,Ocrelizumab (Ocrevus),600mg IV infusion every 6 months,Intravenous,Disease-modifying therapy for RRMS,2022-02-22
+P108,Gabapentin,300mg three times daily,Oral,Neuropathic pain & paresthesias,2023-11-18
+P108,Baclofen,10mg twice daily as needed,Oral,Lower extremity spasticity,2021-01-20
+P109,Metformin,500mg twice daily,Oral,Glycemic control,2023-07-20
+P109,Empagliflozin (Jardiance),10mg daily,Oral,Cardiorenal protection & T2D,2023-06-17
+P109,Lisinopril,20mg daily,Oral,Hypertension & Renal Protection,2022-09-16
+P109,Atorvastatin,40mg daily,Oral,Lipid management,2022-06-28
+P110,Fluticasone/Vilanterol (Breo Ellipta),100/25 mcg once daily,Inhalation,COPD controller,2021-09-16
+P110,Tiotropium (Spiriva Respimat),2.5 mcg 2 puffs daily,Inhalation,LAMA bronchodilator,2022-07-22
+P110,Albuterol/Ipratropium (Combivent),2 puffs every 4-6h PRN,Inhalation,Rescue bronchodilator,2021-02-18
+P111,Ustekinumab (Stelara),90mg subcutaneous every 8 weeks,Subcutaneous,Biologic maintenance for Crohn's,2021-06-21
+P111,Ferric Carboxymaltose (Injectafer),750mg IV infusion x 2 doses,Intravenous,Refractory iron deficiency anemia,2023-04-16
+P111,Mesalamine,1.2g twice daily,Oral,Mucosal anti-inflammatory,2022-06-23
+P112,Clopidogrel (Plavix),75mg daily,Oral,Antiplatelet post-PCI,2023-08-17
+P112,Apixaban (Eliquis),5mg twice daily,Oral,Stroke prevention in AFib,2022-05-26
+P112,Carvedilol,12.5mg twice daily,Oral,Rate control & cardioprotection,2022-03-27
+P112,Sacubitril/Valsartan (Entresto),24/26mg twice daily,Oral,Heart failure guideline therapy,2022-07-03
+P112,Furosemide (Lasix),20mg daily as needed,Oral,Volume overload management,2022-08-15
+P113,Methotrexate,15mg subcutaneously once weekly,Subcutaneous,DMARD for Rheumatoid Arthritis,2023-10-20
+P113,Folic Acid,1mg daily (except MTX day),Oral,Methotrexate toxicity prevention,2022-12-27
+P113,Adalimumab (Humira),40mg every 2 weeks,Subcutaneous,Anti-TNF biologic therapy,2022-09-23
+P113,Alendronate (Fosamax),70mg once weekly,Oral,Osteoporosis prevention,2023-10-24
+P114,Ustekinumab (Stelara),90mg subcutaneous every 8 weeks,Subcutaneous,Biologic maintenance for Crohn's,2021-01-22
+P114,Ferric Carboxymaltose (Injectafer),750mg IV infusion x 2 doses,Intravenous,Refractory iron deficiency anemia,2022-03-27
+P114,Mesalamine,1.2g twice daily,Oral,Mucosal anti-inflammatory,2021-09-17
+P115,Fluticasone/Vilanterol (Breo Ellipta),100/25 mcg once daily,Inhalation,COPD controller,2022-12-01
+P115,Tiotropium (Spiriva Respimat),2.5 mcg 2 puffs daily,Inhalation,LAMA bronchodilator,2023-06-17
+P115,Albuterol/Ipratropium (Combivent),2 puffs every 4-6h PRN,Inhalation,Rescue bronchodilator,2022-08-21

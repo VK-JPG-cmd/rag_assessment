@@ -1,0 +1,187 @@
+patient_id,test_name,date,value,unit,reference_range,interpretation
+P101,NT-proBNP,2021-03-12,33.9,units,Standard Ref,Clinical finding noted
+P101,NT-proBNP,2022-08-20,65.8,units,Standard Ref,Clinical finding noted
+P101,NT-proBNP,2023-11-05,64.9,units,Standard Ref,Clinical finding noted
+P101,Troponin I,2021-03-12,1.09,ng/mL,< 0.04,Critical Elevation
+P101,Troponin I,2022-08-20,1.67,ng/mL,< 0.04,Critical Elevation
+P101,Troponin I,2023-11-05,11.34,ng/mL,< 0.04,Critical Elevation
+P101,Total Cholesterol,2021-03-12,53.4,units,Standard Ref,Clinical finding noted
+P101,Total Cholesterol,2022-08-20,72.0,units,Standard Ref,Clinical finding noted
+P101,Total Cholesterol,2023-11-05,34.6,units,Standard Ref,Clinical finding noted
+P101,LDL Cholesterol,2021-03-12,148,mg/dL,< 100,Elevated
+P101,LDL Cholesterol,2022-08-20,135,mg/dL,< 100,Elevated
+P101,LDL Cholesterol,2023-11-05,93,mg/dL,< 100,Elevated
+P101,Serum Potassium,2021-03-12,20.7,units,Standard Ref,Clinical finding noted
+P101,Serum Potassium,2022-08-20,81.1,units,Standard Ref,Clinical finding noted
+P101,Serum Potassium,2023-11-05,30.3,units,Standard Ref,Clinical finding noted
+P102,Brain & Spine MRI Lesion Count,2021-03-12,56.6,units,Standard Ref,Clinical finding noted
+P102,Brain & Spine MRI Lesion Count,2022-08-20,89.0,units,Standard Ref,Clinical finding noted
+P102,Brain & Spine MRI Lesion Count,2023-11-05,19.1,units,Standard Ref,Clinical finding noted
+P102,Serum Neurofilament Light Chain (sNfL),2021-03-12,73.2,units,Standard Ref,Clinical finding noted
+P102,Serum Neurofilament Light Chain (sNfL),2022-08-20,59.6,units,Standard Ref,Clinical finding noted
+P102,Serum Neurofilament Light Chain (sNfL),2023-11-05,73.5,units,Standard Ref,Clinical finding noted
+P102,Total Immunoglobulin G (IgG),2021-03-12,15.2,units,Standard Ref,Clinical finding noted
+P102,Total Immunoglobulin G (IgG),2022-08-20,24.0,units,Standard Ref,Clinical finding noted
+P102,Total Immunoglobulin G (IgG),2023-11-05,47.9,units,Standard Ref,Clinical finding noted
+P103,Brain & Spine MRI Lesion Count,2021-03-12,27.6,units,Standard Ref,Clinical finding noted
+P103,Brain & Spine MRI Lesion Count,2022-08-20,12.9,units,Standard Ref,Clinical finding noted
+P103,Brain & Spine MRI Lesion Count,2023-11-05,91.8,units,Standard Ref,Clinical finding noted
+P103,Serum Neurofilament Light Chain (sNfL),2021-03-12,59.0,units,Standard Ref,Clinical finding noted
+P103,Serum Neurofilament Light Chain (sNfL),2022-08-20,64.2,units,Standard Ref,Clinical finding noted
+P103,Serum Neurofilament Light Chain (sNfL),2023-11-05,73.9,units,Standard Ref,Clinical finding noted
+P103,Total Immunoglobulin G (IgG),2021-03-12,36.5,units,Standard Ref,Clinical finding noted
+P103,Total Immunoglobulin G (IgG),2022-08-20,36.8,units,Standard Ref,Clinical finding noted
+P103,Total Immunoglobulin G (IgG),2023-11-05,44.9,units,Standard Ref,Clinical finding noted
+P104,Spirometry FEV1 (% Predicted),2021-03-12,90,%,> 80,Normal
+P104,Spirometry FEV1 (% Predicted),2022-08-20,91,%,> 80,Normal
+P104,Spirometry FEV1 (% Predicted),2023-11-05,73,%,> 80,Mild-to-Moderate Obstruction
+P104,FEV1/FVC Ratio,2021-03-12,89,%,> 80,Normal
+P104,FEV1/FVC Ratio,2022-08-20,83,%,> 80,Normal
+P104,FEV1/FVC Ratio,2023-11-05,80,%,> 80,Normal
+P104,Absolute Eosinophil Count,2021-03-12,84.6,units,Standard Ref,Clinical finding noted
+P104,Absolute Eosinophil Count,2022-08-20,41.1,units,Standard Ref,Clinical finding noted
+P104,Absolute Eosinophil Count,2023-11-05,77.0,units,Standard Ref,Clinical finding noted
+P104,Arterial Blood Gas pO2,2021-03-12,71.1,units,Standard Ref,Clinical finding noted
+P104,Arterial Blood Gas pO2,2022-08-20,45.6,units,Standard Ref,Clinical finding noted
+P104,Arterial Blood Gas pO2,2023-11-05,38.0,units,Standard Ref,Clinical finding noted
+P105,C-Reactive Protein (CRP),2021-03-12,14.9,mg/L,< 3.0,Active Systemic Inflammation
+P105,C-Reactive Protein (CRP),2022-08-20,17.5,mg/L,< 3.0,Active Systemic Inflammation
+P105,C-Reactive Protein (CRP),2023-11-05,6.5,mg/L,< 3.0,Active Systemic Inflammation
+P105,Erythrocyte Sedimentation Rate (ESR),2021-03-12,27.1,units,Standard Ref,Clinical finding noted
+P105,Erythrocyte Sedimentation Rate (ESR),2022-08-20,39.6,units,Standard Ref,Clinical finding noted
+P105,Erythrocyte Sedimentation Rate (ESR),2023-11-05,42.5,units,Standard Ref,Clinical finding noted
+P105,Rheumatoid Factor (RF),2021-03-12,90.3,units,Standard Ref,Clinical finding noted
+P105,Rheumatoid Factor (RF),2022-08-20,82.2,units,Standard Ref,Clinical finding noted
+P105,Rheumatoid Factor (RF),2023-11-05,24.1,units,Standard Ref,Clinical finding noted
+P105,Anti-CCP Antibodies,2021-03-12,25.9,units,Standard Ref,Clinical finding noted
+P105,Anti-CCP Antibodies,2022-08-20,77.8,units,Standard Ref,Clinical finding noted
+P105,Anti-CCP Antibodies,2023-11-05,36.6,units,Standard Ref,Clinical finding noted
+P105,DEXA T-Score (Lumbar Spine),2021-03-12,-2.8,T-score,> -1.0,Osteoporosis
+P105,DEXA T-Score (Lumbar Spine),2022-08-20,-1.5,T-score,> -1.0,Osteopenia
+P105,DEXA T-Score (Lumbar Spine),2023-11-05,-2.6,T-score,> -1.0,Osteoporosis
+P106,C-Reactive Protein (CRP),2021-03-12,5.2,mg/L,< 3.0,Active Systemic Inflammation
+P106,C-Reactive Protein (CRP),2022-08-20,12.6,mg/L,< 3.0,Active Systemic Inflammation
+P106,C-Reactive Protein (CRP),2023-11-05,5.2,mg/L,< 3.0,Active Systemic Inflammation
+P106,Erythrocyte Sedimentation Rate (ESR),2021-03-12,77.0,units,Standard Ref,Clinical finding noted
+P106,Erythrocyte Sedimentation Rate (ESR),2022-08-20,78.1,units,Standard Ref,Clinical finding noted
+P106,Erythrocyte Sedimentation Rate (ESR),2023-11-05,20.1,units,Standard Ref,Clinical finding noted
+P106,Rheumatoid Factor (RF),2021-03-12,70.5,units,Standard Ref,Clinical finding noted
+P106,Rheumatoid Factor (RF),2022-08-20,72.8,units,Standard Ref,Clinical finding noted
+P106,Rheumatoid Factor (RF),2023-11-05,16.8,units,Standard Ref,Clinical finding noted
+P106,Anti-CCP Antibodies,2021-03-12,90.1,units,Standard Ref,Clinical finding noted
+P106,Anti-CCP Antibodies,2022-08-20,15.3,units,Standard Ref,Clinical finding noted
+P106,Anti-CCP Antibodies,2023-11-05,36.5,units,Standard Ref,Clinical finding noted
+P106,DEXA T-Score (Lumbar Spine),2021-03-12,-2.6,T-score,> -1.0,Osteoporosis
+P106,DEXA T-Score (Lumbar Spine),2022-08-20,-1.8,T-score,> -1.0,Osteopenia
+P106,DEXA T-Score (Lumbar Spine),2023-11-05,-3.0,T-score,> -1.0,Osteoporosis
+P107,Spirometry FEV1 (% Predicted),2021-03-12,87,%,> 80,Normal
+P107,Spirometry FEV1 (% Predicted),2022-08-20,85,%,> 80,Normal
+P107,Spirometry FEV1 (% Predicted),2023-11-05,87,%,> 80,Normal
+P107,FEV1/FVC Ratio,2021-03-12,85,%,> 80,Normal
+P107,FEV1/FVC Ratio,2022-08-20,88,%,> 80,Normal
+P107,FEV1/FVC Ratio,2023-11-05,85,%,> 80,Normal
+P107,Absolute Eosinophil Count,2021-03-12,35.2,units,Standard Ref,Clinical finding noted
+P107,Absolute Eosinophil Count,2022-08-20,13.0,units,Standard Ref,Clinical finding noted
+P107,Absolute Eosinophil Count,2023-11-05,86.4,units,Standard Ref,Clinical finding noted
+P107,Arterial Blood Gas pO2,2021-03-12,55.9,units,Standard Ref,Clinical finding noted
+P107,Arterial Blood Gas pO2,2022-08-20,11.6,units,Standard Ref,Clinical finding noted
+P107,Arterial Blood Gas pO2,2023-11-05,59.1,units,Standard Ref,Clinical finding noted
+P108,Brain & Spine MRI Lesion Count,2021-03-12,66.4,units,Standard Ref,Clinical finding noted
+P108,Brain & Spine MRI Lesion Count,2022-08-20,90.2,units,Standard Ref,Clinical finding noted
+P108,Brain & Spine MRI Lesion Count,2023-11-05,12.4,units,Standard Ref,Clinical finding noted
+P108,Serum Neurofilament Light Chain (sNfL),2021-03-12,58.3,units,Standard Ref,Clinical finding noted
+P108,Serum Neurofilament Light Chain (sNfL),2022-08-20,14.4,units,Standard Ref,Clinical finding noted
+P108,Serum Neurofilament Light Chain (sNfL),2023-11-05,25.4,units,Standard Ref,Clinical finding noted
+P108,Total Immunoglobulin G (IgG),2021-03-12,24.8,units,Standard Ref,Clinical finding noted
+P108,Total Immunoglobulin G (IgG),2022-08-20,90.6,units,Standard Ref,Clinical finding noted
+P108,Total Immunoglobulin G (IgG),2023-11-05,12.0,units,Standard Ref,Clinical finding noted
+P109,Hemoglobin A1c,2021-03-12,8.5,%,< 5.7,Elevated / Diabetic Range
+P109,Hemoglobin A1c,2022-08-20,8.3,%,< 5.7,Elevated / Diabetic Range
+P109,Hemoglobin A1c,2023-11-05,7.5,%,< 5.7,Elevated / Diabetic Range
+P109,Estimated GFR (eGFR),2021-03-12,69,mL/min/1.73m2,> 60,Normal
+P109,Estimated GFR (eGFR),2022-08-20,78,mL/min/1.73m2,> 60,Normal
+P109,Estimated GFR (eGFR),2023-11-05,54,mL/min/1.73m2,> 60,Mild-to-Moderate Reduction
+P109,Serum Creatinine,2021-03-12,1.21,mg/dL,0.6 - 1.2,Elevated
+P109,Serum Creatinine,2022-08-20,1.56,mg/dL,0.6 - 1.2,Elevated
+P109,Serum Creatinine,2023-11-05,1.15,mg/dL,0.6 - 1.2,Normal
+P109,Urine Albumin/Creatinine Ratio,2021-03-12,1.29,mg/dL,0.6 - 1.2,Elevated
+P109,Urine Albumin/Creatinine Ratio,2022-08-20,1.18,mg/dL,0.6 - 1.2,Normal
+P109,Urine Albumin/Creatinine Ratio,2023-11-05,1.02,mg/dL,0.6 - 1.2,Normal
+P110,Spirometry FEV1 (% Predicted),2021-03-12,66,%,> 80,Mild-to-Moderate Obstruction
+P110,Spirometry FEV1 (% Predicted),2022-08-20,78,%,> 80,Mild-to-Moderate Obstruction
+P110,Spirometry FEV1 (% Predicted),2023-11-05,82,%,> 80,Normal
+P110,FEV1/FVC Ratio,2021-03-12,92,%,> 80,Normal
+P110,FEV1/FVC Ratio,2022-08-20,70,%,> 80,Mild-to-Moderate Obstruction
+P110,FEV1/FVC Ratio,2023-11-05,78,%,> 80,Mild-to-Moderate Obstruction
+P110,Absolute Eosinophil Count,2021-03-12,66.5,units,Standard Ref,Clinical finding noted
+P110,Absolute Eosinophil Count,2022-08-20,59.3,units,Standard Ref,Clinical finding noted
+P110,Absolute Eosinophil Count,2023-11-05,76.1,units,Standard Ref,Clinical finding noted
+P110,Arterial Blood Gas pO2,2021-03-12,54.1,units,Standard Ref,Clinical finding noted
+P110,Arterial Blood Gas pO2,2022-08-20,15.9,units,Standard Ref,Clinical finding noted
+P110,Arterial Blood Gas pO2,2023-11-05,29.9,units,Standard Ref,Clinical finding noted
+P111,Fecal Calprotectin,2021-03-12,28.0,units,Standard Ref,Clinical finding noted
+P111,Fecal Calprotectin,2022-08-20,43.0,units,Standard Ref,Clinical finding noted
+P111,Fecal Calprotectin,2023-11-05,82.5,units,Standard Ref,Clinical finding noted
+P111,Hemoglobin,2021-03-12,87.3,units,Standard Ref,Clinical finding noted
+P111,Hemoglobin,2022-08-20,29.6,units,Standard Ref,Clinical finding noted
+P111,Hemoglobin,2023-11-05,35.7,units,Standard Ref,Clinical finding noted
+P111,Serum Ferritin,2021-03-12,62.0,units,Standard Ref,Clinical finding noted
+P111,Serum Ferritin,2022-08-20,44.0,units,Standard Ref,Clinical finding noted
+P111,Serum Ferritin,2023-11-05,63.9,units,Standard Ref,Clinical finding noted
+P111,C-Reactive Protein (CRP),2021-03-12,16.2,mg/L,< 3.0,Active Systemic Inflammation
+P111,C-Reactive Protein (CRP),2022-08-20,12.5,mg/L,< 3.0,Active Systemic Inflammation
+P111,C-Reactive Protein (CRP),2023-11-05,3.3,mg/L,< 3.0,Normal / Controlled
+P112,NT-proBNP,2021-03-12,24.1,units,Standard Ref,Clinical finding noted
+P112,NT-proBNP,2022-08-20,50.7,units,Standard Ref,Clinical finding noted
+P112,NT-proBNP,2023-11-05,39.5,units,Standard Ref,Clinical finding noted
+P112,Troponin I,2021-03-12,6.11,ng/mL,< 0.04,Critical Elevation
+P112,Troponin I,2022-08-20,8.15,ng/mL,< 0.04,Critical Elevation
+P112,Troponin I,2023-11-05,6.76,ng/mL,< 0.04,Critical Elevation
+P112,Total Cholesterol,2021-03-12,50.4,units,Standard Ref,Clinical finding noted
+P112,Total Cholesterol,2022-08-20,62.2,units,Standard Ref,Clinical finding noted
+P112,Total Cholesterol,2023-11-05,53.4,units,Standard Ref,Clinical finding noted
+P112,LDL Cholesterol,2021-03-12,70,mg/dL,< 100,Elevated
+P112,LDL Cholesterol,2022-08-20,55,mg/dL,< 100,Optimal on Statin
+P112,LDL Cholesterol,2023-11-05,154,mg/dL,< 100,Elevated
+P112,Serum Potassium,2021-03-12,94.0,units,Standard Ref,Clinical finding noted
+P112,Serum Potassium,2022-08-20,25.4,units,Standard Ref,Clinical finding noted
+P112,Serum Potassium,2023-11-05,69.5,units,Standard Ref,Clinical finding noted
+P113,C-Reactive Protein (CRP),2021-03-12,11.7,mg/L,< 3.0,Active Systemic Inflammation
+P113,C-Reactive Protein (CRP),2022-08-20,14.5,mg/L,< 3.0,Active Systemic Inflammation
+P113,C-Reactive Protein (CRP),2023-11-05,1.8,mg/L,< 3.0,Normal / Controlled
+P113,Erythrocyte Sedimentation Rate (ESR),2021-03-12,42.8,units,Standard Ref,Clinical finding noted
+P113,Erythrocyte Sedimentation Rate (ESR),2022-08-20,90.1,units,Standard Ref,Clinical finding noted
+P113,Erythrocyte Sedimentation Rate (ESR),2023-11-05,19.4,units,Standard Ref,Clinical finding noted
+P113,Rheumatoid Factor (RF),2021-03-12,26.6,units,Standard Ref,Clinical finding noted
+P113,Rheumatoid Factor (RF),2022-08-20,62.2,units,Standard Ref,Clinical finding noted
+P113,Rheumatoid Factor (RF),2023-11-05,43.7,units,Standard Ref,Clinical finding noted
+P113,Anti-CCP Antibodies,2021-03-12,14.6,units,Standard Ref,Clinical finding noted
+P113,Anti-CCP Antibodies,2022-08-20,51.7,units,Standard Ref,Clinical finding noted
+P113,Anti-CCP Antibodies,2023-11-05,48.1,units,Standard Ref,Clinical finding noted
+P113,DEXA T-Score (Lumbar Spine),2021-03-12,-3.1,T-score,> -1.0,Osteoporosis
+P113,DEXA T-Score (Lumbar Spine),2022-08-20,-2.0,T-score,> -1.0,Osteopenia
+P113,DEXA T-Score (Lumbar Spine),2023-11-05,-1.8,T-score,> -1.0,Osteopenia
+P114,Fecal Calprotectin,2021-03-12,41.9,units,Standard Ref,Clinical finding noted
+P114,Fecal Calprotectin,2022-08-20,22.3,units,Standard Ref,Clinical finding noted
+P114,Fecal Calprotectin,2023-11-05,80.7,units,Standard Ref,Clinical finding noted
+P114,Hemoglobin,2021-03-12,23.0,units,Standard Ref,Clinical finding noted
+P114,Hemoglobin,2022-08-20,65.4,units,Standard Ref,Clinical finding noted
+P114,Hemoglobin,2023-11-05,35.3,units,Standard Ref,Clinical finding noted
+P114,Serum Ferritin,2021-03-12,87.9,units,Standard Ref,Clinical finding noted
+P114,Serum Ferritin,2022-08-20,33.7,units,Standard Ref,Clinical finding noted
+P114,Serum Ferritin,2023-11-05,15.2,units,Standard Ref,Clinical finding noted
+P114,C-Reactive Protein (CRP),2021-03-12,14.8,mg/L,< 3.0,Active Systemic Inflammation
+P114,C-Reactive Protein (CRP),2022-08-20,7.3,mg/L,< 3.0,Active Systemic Inflammation
+P114,C-Reactive Protein (CRP),2023-11-05,16.4,mg/L,< 3.0,Active Systemic Inflammation
+P115,Spirometry FEV1 (% Predicted),2021-03-12,86,%,> 80,Normal
+P115,Spirometry FEV1 (% Predicted),2022-08-20,73,%,> 80,Mild-to-Moderate Obstruction
+P115,Spirometry FEV1 (% Predicted),2023-11-05,90,%,> 80,Normal
+P115,FEV1/FVC Ratio,2021-03-12,63,%,> 80,Mild-to-Moderate Obstruction
+P115,FEV1/FVC Ratio,2022-08-20,88,%,> 80,Normal
+P115,FEV1/FVC Ratio,2023-11-05,69,%,> 80,Mild-to-Moderate Obstruction
+P115,Absolute Eosinophil Count,2021-03-12,19.4,units,Standard Ref,Clinical finding noted
+P115,Absolute Eosinophil Count,2022-08-20,65.8,units,Standard Ref,Clinical finding noted
+P115,Absolute Eosinophil Count,2023-11-05,59.9,units,Standard Ref,Clinical finding noted
+P115,Arterial Blood Gas pO2,2021-03-12,13.8,units,Standard Ref,Clinical finding noted
+P115,Arterial Blood Gas pO2,2022-08-20,73.8,units,Standard Ref,Clinical finding noted
+P115,Arterial Blood Gas pO2,2023-11-05,10.3,units,Standard Ref,Clinical finding noted

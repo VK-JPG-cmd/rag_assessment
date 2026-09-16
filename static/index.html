@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient-Record Clinical RAG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css?v=3">
+</head>
+<body>
+  <div class="app-container">
+    <!-- TOP NAVIGATION -->
+    <header class="top-nav">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-notes-medical"></i>
+        </div>
+        <div class="brand-info">
+          <h1>Clinical RAG <span>Prototype</span></h1>
+          <p>EHR Historical Retrieval & Grounded Reasoning</p>
+        </div>
+      </div>
+
+      <div class="nav-controls">
+        <button id="open-upload-modal-btn" class="primary-btn nav-upload-btn">
+          <i class="fa-solid fa-cloud-arrow-up"></i> Upload Dataset
+        </button>
+
+        <div class="patient-selector-wrapper">
+          <label for="patient-select"><i class="fa-solid fa-user-injured"></i> Target Patient:</label>
+          <select id="patient-select" class="patient-dropdown">
+            <option value="" disabled selected>Loading patients...</option>
+          </select>
+        </div>
+
+        <div class="system-status-badge" id="system-status">
+          <span class="pulse-dot"></span>
+          <span id="status-text">Connecting to RAG Engine...</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT GRID -->
+    <main class="dashboard-grid">
+      <!-- LEFT PANEL: PATIENT SUMMARY & EHR TIMELINE -->
+      <aside class="patient-sidebar card">
+        <div class="card-header">
+          <h2><i class="fa-solid fa-id-card-clip"></i> Patient Summary</h2>
+          <span class="patient-badge" id="badge-patient-id">--</span>
+        </div>
+
+        <div id="patient-details-container" class="patient-details">
+          <div class="demographics-grid">
+            <div class="demo-item">
+              <span class="label">Full Name</span>
+              <span class="val bold" id="p-name">Loading...</span>
+            </div>
+            <div class="demo-item">
+              <span class="label">Age / Gender</span>
+              <span class="val" id="p-age-gender">--</span>
+            </div>
+            <div class="demo-item">
+              <span class="label">Blood Type</span>
+              <span class="val" id="p-blood-type">--</span>
+            </div>
+            <div class="demo-item">
+              <span class="label">Primary Physician</span>
+              <span class="val" id="p-pcp">--</span>
+            </div>
+          </div>
+
+          <!-- ALLERGIES SECTION (CRITICAL) -->
+          <div class="section-box alert-box">
+            <h3><i class="fa-solid fa-triangle-exclamation"></i> Documented Allergies</h3>
+            <div id="p-allergies-list" class="allergies-list">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- ACTIVE PROBLEMS -->
+          <div class="section-box">
+            <h3><i class="fa-solid fa-stethoscope"></i> Active Problem List</h3>
+            <div id="p-diagnoses-list" class="tag-cloud">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- ACTIVE MEDICATIONS -->
+          <div class="section-box">
+            <h3><i class="fa-solid fa-pills"></i> Current Prescriptions</h3>
+            <div id="p-meds-list" class="med-list">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- ENCOUNTER HISTORY TIMELINE -->
+          <div class="section-box">
+            <h3><i class="fa-solid fa-clock-rotate-left"></i> Encounter Timeline</h3>
+            <div id="p-encounters-timeline" class="timeline-list">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT / MAIN: QUERY INTERFACE & GROUNDED RAG ANSWER -->
+      <section class="rag-main-panel">
+        <!-- SEARCH & QUERY CONTROLS -->
+        <div class="card query-card">
+          <div class="card-header">
+            <h2><i class="fa-solid fa-magnifying-glass-chart"></i> Clinical Query Engine</h2>
+            <div class="filters-row">
+              <div class="filter-group">
+                <label><i class="fa-solid fa-layer-group"></i> Filter:</label>
+                <select id="category-filter" class="custom-select">
+                  <option value="">All Categories</option>
+                  <option value="Encounters">Encounters & Notes</option>
+                  <option value="Labs">Laboratory & Diagnostics</option>
+                  <option value="Medications">Medications</option>
+                  <option value="Allergies">Allergies</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label><i class="fa-solid fa-sliders"></i> Top K:</label>
+                <select id="topk-filter" class="custom-select">
+                  <option value="3">3 Chunks</option>
+                  <option value="5" selected>5 Chunks</option>
+                  <option value="8">8 Chunks</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- QUICK SUGGESTIONS -->
+          <div class="quick-prompts-bar">
+            <span class="prompt-hint"><i class="fa-regular fa-lightbulb"></i> Clinical Prompt Templates:</span>
+            <div id="quick-prompts-container" class="prompt-pills">
+              <!-- Dynamic based on selected patient -->
+            </div>
+          </div>
+
+          <!-- INPUT FORM -->
+          <form id="rag-query-form" class="query-form">
+            <div class="input-wrapper">
+              <textarea 
+                id="query-input" 
+                rows="2" 
+                placeholder="Ask any historical or clinical question about this patient (e.g. 'What is the patient's HbA1c progression and renal function?')..."
+                required
+              ></textarea>
+              <button type="submit" id="submit-btn" class="primary-btn">
+                <i class="fa-solid fa-paper-plane"></i> Ask RAG
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- RAG RESULTS DISPLAY -->
+        <div id="results-area" class="results-container" style="display: none;">
+          <!-- ANSWER CARD -->
+          <div class="card answer-card">
+            <div class="card-header answer-header">
+              <div class="answer-meta">
+                <h2><i class="fa-solid fa-file-waveform"></i> Grounded Clinical Synthesis</h2>
+                <span class="model-badge" id="res-model-badge">Gemini Model</span>
+              </div>
+              <div class="actions-group">
+                <button class="icon-btn" id="copy-btn" title="Copy Response"><i class="fa-regular fa-copy"></i></button>
+              </div>
+            </div>
+            
+            <div class="answer-body markdown-content" id="rag-answer-content">
+              <!-- Rendered markdown response -->
+            </div>
+
+            <!-- CITATIONS FOOTER -->
+            <div class="citations-section" id="citations-container">
+              <h3><i class="fa-solid fa-link"></i> Verified Historical Citations</h3>
+              <div class="citations-badges" id="citations-badges-list">
+                <!-- Badges rendered via JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- RETRIEVED EVIDENCE CHUNKS ACCORDION -->
+          <div class="card evidence-card">
+            <div class="card-header">
+              <h2><i class="fa-solid fa-database"></i> Retrieved Context Chunks (Vector Store)</h2>
+              <span class="chunks-count-badge" id="evidence-count-badge">0 Records</span>
+            </div>
+            <div class="evidence-list" id="evidence-list-container">
+              <!-- Evidence items rendered via JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- PLACEHOLDER STATE -->
+        <div id="empty-state" class="empty-state card">
+          <div class="empty-icon">
+            <i class="fa-solid fa-laptop-medical"></i>
+          </div>
+          <h3>Ready for Clinical Inquiries</h3>
+          <p>Select a synthetic patient and ask a question or click one of the suggested query templates above.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- UPLOAD DATASET MODAL -->
+  <div id="upload-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2><i class="fa-solid fa-cloud-arrow-up"></i> Upload Patient Dataset</h2>
+        <button class="modal-close-btn" id="close-modal-btn">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-desc">
+          Upload synthetic or de-identified patient health records (<strong>.json</strong> or <strong>.csv</strong>) to instantly ingest them into the ChromaDB vector database.
+        </p>
+
+        <div class="drop-zone" id="drop-zone">
+          <div class="drop-icon"><i class="fa-solid fa-file-arrow-up"></i></div>
+          <p class="drop-title">Drag & drop your dataset file here</p>
+          <p class="drop-sub">or click to browse from your computer</p>
+          <input type="file" id="file-input" accept=".json,.csv" style="display: none;" />
+        </div>
+
+        <div id="selected-file-info" class="selected-file-card" style="display: none;">
+          <i class="fa-solid fa-file-code"></i>
+          <span id="selected-file-name" class="file-name">filename.json</span>
+          <button type="button" id="clear-file-btn" class="clear-file-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div id="upload-status" class="upload-status-box" style="display: none;"></div>
+
+        <div class="modal-actions-row">
+          <button type="button" id="download-template-btn" class="outline-btn">
+            <i class="fa-solid fa-download"></i> Sample JSON Template
+          </button>
+          <button type="button" id="start-upload-btn" class="primary-btn upload-action-btn" disabled>
+            <i class="fa-solid fa-upload"></i> Ingest into Vector DB
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marked.js for markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
