@@ -1,11 +1,6 @@
 # Environment variables and API keys
 .env
 
-# Backend files ignored from git repo
-src/
-api/
-main.py
-
 # Python cache
 __pycache__/
 *.py[cod]
@@ -18,7 +13,7 @@ venv/
 .venv/
 env/
 
-# Vector database cache
+# Vector database local cache
 chroma_db/
 
 # OS files
